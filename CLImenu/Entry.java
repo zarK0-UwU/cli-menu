@@ -1,10 +1,27 @@
+package CLImenu;
+
 import java.util.ArrayList;
 
 public class Entry {
     String name;
     ArrayList<String> aliases;
 
-    
+    void Entry(String name, ArrayList<String> aliases) {
+
+    }
+
+    void Entry(String name) {
+
+    }
+
+    void Entry(String name, String alias) {
+
+    }
+
+    void Entry() {
+
+    }
+
     /**
      * @return the name
      */
